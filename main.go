@@ -350,6 +350,7 @@ func getModification(path string, start []byte, end []byte) (string, error) {
 	defer file.Close()
 
 	scanner := bufio.NewScanner(file)
+    scanner.Buffer([]byte{}, bufio.MaxScanTokenSize*1024)
 	for scanner.Scan() {
 		if bytes.HasPrefix(scanner.Bytes(), start) && bytes.HasSuffix(scanner.Bytes(), end) {
 			break
