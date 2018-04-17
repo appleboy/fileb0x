@@ -17,8 +17,8 @@ import (
 	"encoding/json"
 
 	"github.com/appleboy/fileb0x/file"
-	"github.com/vbauerster/mpb"
-	"github.com/vbauerster/mpb/decor"
+	"github.com/appleboy/mpb"
+	"github.com/appleboy/mpb/decor"
 )
 
 var p *mpb.Progress
