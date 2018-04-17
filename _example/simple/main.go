@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/UnnoTed/fileb0x/_example/simple/static"
+	"github.com/appleboy/fileb0x/_example/simple/static"
 )
 
 func main() {

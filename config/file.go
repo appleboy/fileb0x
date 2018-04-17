@@ -7,7 +7,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/UnnoTed/fileb0x/utils"
+	"github.com/appleboy/fileb0x/utils"
 
 	"github.com/BurntSushi/toml"
 	"gopkg.in/yaml.v2"

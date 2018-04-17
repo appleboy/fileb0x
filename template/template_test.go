@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/UnnoTed/fileb0x/compression"
-	"github.com/UnnoTed/fileb0x/dir"
-	"github.com/UnnoTed/fileb0x/file"
-	"github.com/UnnoTed/fileb0x/updater"
+	"github.com/appleboy/fileb0x/compression"
+	"github.com/appleboy/fileb0x/dir"
+	"github.com/appleboy/fileb0x/file"
+	"github.com/appleboy/fileb0x/updater"
 	"github.com/stretchr/testify/assert"
 )
 

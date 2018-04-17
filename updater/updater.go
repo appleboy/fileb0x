@@ -16,7 +16,7 @@ import (
 
 	"encoding/json"
 
-	"github.com/UnnoTed/fileb0x/file"
+	"github.com/appleboy/fileb0x/file"
 	"github.com/vbauerster/mpb"
 	"github.com/vbauerster/mpb/decor"
 )

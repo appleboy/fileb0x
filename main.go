@@ -18,14 +18,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/UnnoTed/fileb0x/compression"
-	"github.com/UnnoTed/fileb0x/config"
-	"github.com/UnnoTed/fileb0x/custom"
-	"github.com/UnnoTed/fileb0x/dir"
-	"github.com/UnnoTed/fileb0x/file"
-	"github.com/UnnoTed/fileb0x/template"
-	"github.com/UnnoTed/fileb0x/updater"
-	"github.com/UnnoTed/fileb0x/utils"
+	"github.com/appleboy/fileb0x/compression"
+	"github.com/appleboy/fileb0x/config"
+	"github.com/appleboy/fileb0x/custom"
+	"github.com/appleboy/fileb0x/dir"
+	"github.com/appleboy/fileb0x/file"
+	"github.com/appleboy/fileb0x/template"
+	"github.com/appleboy/fileb0x/updater"
+	"github.com/appleboy/fileb0x/utils"
 
 	// just to install automatically
 	_ "github.com/labstack/echo"
@@ -350,7 +350,7 @@ func getModification(path string, start []byte, end []byte) (string, error) {
 	defer file.Close()
 
 	scanner := bufio.NewScanner(file)
-    scanner.Buffer([]byte{}, bufio.MaxScanTokenSize*1024)
+	scanner.Buffer([]byte{}, bufio.MaxScanTokenSize*1024)
 	for scanner.Scan() {
 		if bytes.HasPrefix(scanner.Bytes(), start) && bytes.HasSuffix(scanner.Bytes(), end) {
 			break

@@ -9,11 +9,11 @@ import (
 	"path"
 	"strings"
 
-	"github.com/UnnoTed/fileb0x/compression"
-	"github.com/UnnoTed/fileb0x/dir"
-	"github.com/UnnoTed/fileb0x/file"
-	"github.com/UnnoTed/fileb0x/updater"
-	"github.com/UnnoTed/fileb0x/utils"
+	"github.com/appleboy/fileb0x/compression"
+	"github.com/appleboy/fileb0x/dir"
+	"github.com/appleboy/fileb0x/file"
+	"github.com/appleboy/fileb0x/updater"
+	"github.com/appleboy/fileb0x/utils"
 	"github.com/bmatcuk/doublestar"
 	"github.com/karrick/godirwalk"
 )

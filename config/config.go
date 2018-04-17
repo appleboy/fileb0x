@@ -3,9 +3,9 @@ package config
 import (
 	"strings"
 
-	"github.com/UnnoTed/fileb0x/compression"
-	"github.com/UnnoTed/fileb0x/custom"
-	"github.com/UnnoTed/fileb0x/updater"
+	"github.com/appleboy/fileb0x/compression"
+	"github.com/appleboy/fileb0x/custom"
+	"github.com/appleboy/fileb0x/updater"
 )
 
 // Config holds the json/yaml/toml data
